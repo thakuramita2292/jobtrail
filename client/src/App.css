@@ -1,0 +1,7 @@
+/* Hide blinking text cursor on all pages */
+/* input,
+textarea,
+select,
+[contenteditable="true"] {
+  caret-color: transparent;
+}  */

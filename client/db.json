@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Amita Singh",
+      "email": "thakuramita2292@gmail.com",
+      "password": "Amita123@",
+      "masterResume": "",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "1",
+      "company": "Tech Corp",
+      "role": "Senior Developer",
+      "location": "Remote",
+      "status": "Applied",
+      "jobUrl": "https://example.com/job/1",
+      "source": "LinkedIn",
+      "appliedDate": "2024-01-15",
+      "jobDescription": "We are looking for a senior developer...",
+      "notes": [],
+      "interviews": [
+        {
+          "id": "1",
+          "type": "Technical Round",
+          "scheduledAt": "2024-01-20"
+        }
+      ],
+      "history": [
+        {
+          "status": "Applied",
+          "at": "Jan 15, 2024"
+        },
+        {
+          "status": "Wishlist",
+          "at": "Oct 21, 2026"
+        },
+        {
+          "status": "Applied",
+          "at": "Oct 21, 2026"
+        },
+        {
+          "status": "Interview",
+          "at": "Oct 21, 2026"
+        },
+        {
+          "status": "Accepted",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Wishlist",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Applied",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Withdrawn",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Applied",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Rejected",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Wishlist",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Rejected",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Applied",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Screening",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Interview",
+          "at": "Oct 23, 2026"
+        },
+        {
+          "status": "Wishlist",
+          "at": "Oct 25, 2026"
+        },
+        {
+          "status": "Applied",
+          "at": "Oct 25, 2026"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "counts": {
+      "Applied": 5,
+      "Interviewing": 2,
+      "Rejected": 1
+    },
+    "weekly": [
+      {
+        "week": 1,
+        "count": 2
+      },
+      {
+        "week": 2,
+        "count": 4
+      },
+      {
+        "week": 3,
+        "count": 3
+      },
+      {
+        "week": 4,
+        "count": 5
+      }
+    ]
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
